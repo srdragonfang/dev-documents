@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.24babd39.css",
+    "main.js": "/static/js/main.0c243323.js",
+    "static/media/bg-2.JPG": "/static/media/bg-2.4599c507724dce2fdce5.JPG",
+    "static/media/paper_fibers.png": "/static/media/paper_fibers.b02a5fc873ec476f49a8.png",
+    "index.html": "/index.html",
+    "main.24babd39.css.map": "/static/css/main.24babd39.css.map",
+    "main.0c243323.js.map": "/static/js/main.0c243323.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24babd39.css",
+    "static/js/main.0c243323.js"
+  ]
+}

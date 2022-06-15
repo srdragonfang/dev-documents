@@ -1,0 +1,97 @@
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  max-width: 768px;
+}
+.section {
+  margin: 1rem 0;
+  h1 {
+    text-shadow: 4px 6px rgba(217, 165, 33, 0.427);
+    margin: 3rem 0 5rem 0;
+  }
+}
+.flex-col {
+  @include flexbox(column, none);
+}
+.flex-row {
+  @include flexbox(row, none);
+}
+.image {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  border: groove 3px goldenrod;
+  box-shadow: $box-shadow-out;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+}
+.buttons {
+  @include flexbox(row, space-around);
+}
+.btn {
+  cursor: pointer;
+  outline: unset;
+  border: unset;
+  background: transparent;
+  &-link {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 2rem;
+    color: inherit;
+    &:hover {
+      transition: 0.5s ease-in-out;
+      border: 1px dashed goldenrod;
+    }
+  }
+  &-close {
+    cursor: pointer;
+    color: $clr-light;
+    @include center-center;
+    background: $clr-dark;
+  }
+}
+.rotate-90 {
+  transform: rotate(90deg);
+}
+.btn-effect-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+/* Button Effect #1 */
+.btn-effect-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+  background-color: goldenrod;
+  border-radius: 0.25rem;
+  z-index: -1;
+}
+
+.btn-effect-1:hover {
+  color: $clr-light;
+}
+
+.btn-effect-1:hover::before {
+  height: 100%;
+}

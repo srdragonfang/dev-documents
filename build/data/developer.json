@@ -1,0 +1,342 @@
+{
+    "libraries": [
+        {
+            "sectionTitle": "fastlinks",
+            "clickID": "fastlinks",
+            "description": [
+                {
+                    "name": "github",
+                    "clickURL": "https://github.com/srdragonfang"
+                },
+                {
+                    "name": "codepen",
+                    "clickURL": "https://codepen.io/srdragonfang"
+                },
+                {
+                    "name": "heroku",
+                    "clickURL": "https://heroku.com/"
+                },
+                {
+                    "name": "stackoverflow",
+                    "clickURL": "https://stackoverflow.com/"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "freeCodes",
+            "clickID": "freeCodes",
+            "description": [
+                {
+                    "name": "css-tricks",
+                    "clickURL": "https://css-tricks.com/"
+                },
+                {
+                    "name": "docs.emmet",
+                    "language": "html, css",
+                    "clickURL": "https://docs.emmet.io/cheat-sheet/"
+                },
+                {
+                    "name": "W3C",
+                    "language": "html, css, javascript",
+                    "clickURL": "https://www.w3schools.com/howto/default.asp"
+                },
+                {
+                    "name": "freefrontend",
+                    "language": "html, css, javascript, bootstrap, jquery, react, vue",
+                    "clickURL": "https://freefrontend.com/"
+                },
+                {
+                    "name": "Vanilla [X]",
+                    "language": "html, css, javascript",
+                    "clickURL": "https://www.vanillajavascriptprojects.com/"
+                },
+                {
+                    "name": "codingui",
+                    "clickURL": "https://codingui.dev/"
+                },
+                {
+                    "name": "freebiesbug [FREE]",
+                    "language": "PSD, Figma, Sketch, Fonts, Code Stuff",
+                    "clickURL": "https://freebiesbug.com/"
+                },
+                {
+                    "name": "overAPI",
+                    "language": "HTML, CSS, JS, JAVA...",
+                    "clickURL": "https://overapi.com/"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "documents",
+            "clickID": "documents",
+            "description": [
+                {
+                    "name": "MongoDB",
+                    "clickURL": "https://www.mongodb.com/"
+                },
+                {
+                    "name": "Firebase",
+                    "clickURL": "https://getbootstrap.com/docs/5.1/getting-started/introduction/"
+                },
+                {
+                    "name": "Vim",
+                    "clickURL": "https://vim.rtorr.com/"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "devBlog",
+            "clickID": "devBlog",
+            "description": [
+                {
+                    "name": "200lab",
+                    "clickURL": "https://200lab.io/"
+                },
+                {
+                    "name": "topdev",
+                    "clickURL": "https://topdev.vn/"
+                },
+                {
+                    "name": "viblo",
+                    "clickURL": "https://viblo.asia/"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Learning",
+            "clickID": "learning",
+            "description": [
+                {
+                    "name": "frontendmentor",
+                    "clickURL": "https://www.frontendmentor.io/"
+                },
+                {
+                    "name": "linkedin/learning",
+                    "clickURL": "https://www.linkedin.com/learning"
+                },
+                {
+                    "name": "F8",
+                    "clickURL": "https://fullstack.edu.vn/"
+                },
+                {
+                    "name": "MDN",
+                    "clickURL": "https://developer.mozilla.org/en-US/"
+                },
+                {
+                    "name": "frontendmentor",
+                    "clickURL": "https://www.frontendmentor.io/"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Youtube Chanels",
+            "clickID": "uchanel",
+            "description": [
+                {
+                    "name": "Web Dev Simplified",
+                    "language": "[Front-End]",
+                    "clickURL": "https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Templates",
+            "clickID": "templates",
+            "description": [
+                {
+                    "name": "dribbble",
+                    "clickURL": "https://dribbble.com/"
+                },
+                {
+                    "name": "untree",
+                    "clickURL": "https://untree.co/"
+                },
+                {
+                    "name": "screenlane",
+                    "clickURL": "https://screenlane.com/"
+                },
+                {
+                    "name": "onepagelove",
+                    "clickURL": "https://onepagelove.com/inspiration"
+                },
+                {
+                    "name": "land-book",
+                    "clickURL": "https://land-book.com/"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Fonts",
+            "clickID": "fonts",
+            "description": [
+                {
+                    "name": "fonts.google",
+                    "clickURL": "https://fonts.google.com/"
+                },
+                {
+                    "name": "beta.myfonts",
+                    "clickURL": "hhttps://beta.myfonts.com/"
+                },
+                {
+                    "name": "fontsquirrel",
+                    "clickURL": "https://www.fontsquirrel.com/"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Images",
+            "clickID": "images",
+            "description": [
+                {
+                    "name": "pixabay",
+                    "clickURL": "https://pixabay.com/"
+                },
+                {
+                    "name": "undraw",
+                    "clickURL": "https://undraw.co/illustrations"
+                },
+                {
+                    "name": "pexels",
+                    "clickURL": "https://www.pexels.com/vi-vn/"
+                },
+                {
+                    "name": "unsplash",
+                    "clickURL": "https://unsplash.com/"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Icons",
+            "clickID": "icons",
+            "description": [
+                {
+                    "name": "font-awesome",
+                    "clickURL": "https://fontawesome.com/"
+                },
+                {
+                    "name": "ionic",
+                    "clickURL": "https://ionic.io/ionicons"
+                },
+                {
+                    "name": "icons8",
+                    "clickURL": "https://icons8.com/"
+                },
+                {
+                    "name": "heroicons",
+                    "clickURL": "https://heroicons.com/"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Colours",
+            "clickID": "colours",
+            "description": [
+                {
+                    "name": "tailwindcss",
+                    "clickURL": "https://tailwindcss.com/docs/customizing-colors"
+                },
+                {
+                    "name": "coolors",
+                    "clickURL": "https://coolors.co/contrast-checker/112a46-acc8e5"
+                },
+                {
+                    "name": "colorhunt",
+                    "clickURL": "https://www.colorhunt.co/"
+                },
+                {
+                    "name": "flatuicolors",
+                    "clickURL": "https://flatuicolors.com/"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Cheet Sheet",
+            "clickID": "cheet-sheet",
+            "description": [
+                {
+                    "name": "CSS Cheat Sheet",
+                    "clickURL": "https://www.dropbox.com/s/sxspdhjjje6rwgu/CSS%20Selector%20Cheat%20Sheet%20-%20Dark.pdf?dl=0"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "CSS Library",
+            "clickID": "css-library",
+            "description": [
+                {
+                    "name": "TailwindCSS",
+                    "clickURL": "https://tailwindcss.com/docs/installation"
+                },
+                {
+                    "name": "BootStrap",
+                    "clickURL": "https://getbootstrap.com/docs/5.1/getting-started/introduction/"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "React",
+            "clickID": "react",
+            "npm": [
+                {
+                    "name": "Tippy",
+                    "clickURL": "",
+                    "npmCode": "yarn add react-tippy",
+                    "import": "import 'react-tippy/dist/tippy.css'"
+                },
+                {
+                    "name": "Tippy React Prop",
+                    "clickURL": "",
+                    "npmCode": "yarn add react-tippy",
+                    "import": "import 'react-tippy/dist/tippy.css'"
+                }
+            ],
+            "description": [
+                {
+                    "name": "reactjs",
+                    "clickURL": "https://reactjs.org/"
+                },
+                {
+                    "name": "React [W3C]",
+                    "clickURL": "https://www.w3schools.com/react/default.asp"
+                },
+                {
+                    "name": "react-router",
+                    "clickURL": "https://v5.reactrouter.com/web/example/basic"
+                },
+                {
+                    "name": "react-icons",
+                    "clickURL": "https://react-icons.github.io/react-icons"
+                },
+                {
+                    "name": "react-type",
+                    "clickURL": "https://react-icons.github.io/react-icons/"
+                },
+                {
+                    "name": "customize-cra",
+                    "clickURL": "https://github.com/arackaf/customize-cra"
+                },
+                {
+                    "name": "babel-plugin-module-resolver",
+                    "clickURL": "https://github.com/tleunen/babel-plugin-module-resolver"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Apifree",
+            "clickID": "apifree",
+            "description": [
+                {
+                    "name": "jsonplaceholder",
+                    "clickURL": ""
+                }
+            ]
+        }
+    ],
+    "sandbox": [
+        {
+            "sectionTitle": "JavaScript",
+            "clickID": "fastlinks",
+            "description": []
+        }
+    ]
+}

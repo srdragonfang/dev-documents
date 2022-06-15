@@ -1,0 +1,129 @@
+// start >>> navbar
+.header {
+  @include flexbox(row, space-between);
+  height: 50px;
+  padding: 0 3rem;
+  backdrop-filter: blur(3px);
+  z-index: 1001;
+  box-shadow: 0 1px 4px $clr-dark;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  transition: 3s ease-in-out;
+  &-logo {
+    text-transform: lowercase;
+    font-weight: 500;
+    letter-spacing: 0.35em;
+    &-link {
+      &-icon {
+        display: none;
+      }
+    }
+    &-btn {
+      position: relative;
+      top: 0.15rem;
+    }
+    & span:hover {
+      cursor: pointer;
+    }
+  }
+}
+.menu-popUp {
+  position: fixed;
+  top: 50px;
+  right: 3rem;
+  padding: 1rem 0;
+  border-left: 2.5px solid $clr-dark;
+  border-right: 2.5px solid $clr-dark;
+}
+.menu-item {
+  box-shadow: 0 1px 4px $clr-dark;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  padding: 0.5rem 2rem;
+  background: $clr-dark;
+  color: $clr-light;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    top: unset;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0 3rem;
+    background: $clr-light;
+    color: $clr-dark;
+    &-logo {
+      &-link {
+        &-icon {
+          display: block;
+        }
+        &-title {
+          display: none;
+        }
+      }
+    }
+  }
+  .menu-popUp {
+    left: 0;
+    bottom: 0;
+    top: unset;
+    right: 0;
+    padding: 1rem 1rem 60px;
+    border: unset;
+    border-radius: 15px 15px 0 0;
+    box-shadow: -1px 0 4px $clr-dark;
+    z-index: -1;
+    background: $clr-light;
+    transition: 3s ease-in-out;
+  }
+  .menu-item {
+    background: $clr-light;
+    color: $clr-dark;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    border: unset;
+    box-shadow: unset;
+    &:hover {
+      background: $clr-dark;
+      color: $clr-light;
+    }
+  }
+}
+// navbar >>> end
+.sideNav {
+  background-color: rgba(51, 51, 51, 0.938);
+  position: fixed;
+  top: 60px;
+  left: 10px;
+  padding: 1rem;
+}
+.sideNav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* Navbar links */
+.sideNav a {
+  width: 100%;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.sideNav a:hover {
+  background: goldenrod;
+  color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px) {
+  .sideNav {
+    margin: 0px;
+    display: none;
+  }
+}

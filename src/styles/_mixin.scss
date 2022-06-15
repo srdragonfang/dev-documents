@@ -1,0 +1,41 @@
+// mixin >>> position
+@mixin center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flexbox($a, $b) {
+  display: flex;
+  flex-direction: $a;
+  align-items: center;
+  justify-content: $b;
+}
+@mixin flex-col($a) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: $a;
+}
+@mixin flex-row($a) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: $a;
+}
+@mixin gridbox($a) {
+  display: grid;
+  gap: $a;
+}
+// mixin >>> color
+// @mixin textColor() {
+//   color: $clr-dark;
+//   background: $clr-light;
+// }
+
+@mixin box-shadow-line {
+  box-shadow: 0 -0.1px 2px $clr-dark;
+}
+// mixin >>> text
+@mixin subtitle {
+  color: lightgray;
+}

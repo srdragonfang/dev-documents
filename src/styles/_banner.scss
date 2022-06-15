@@ -1,0 +1,14 @@
+.banner {
+  @extend .fullscreen;
+  @include center-center;
+  font-size: 10rem;
+  font-weight: 900;
+  color: goldenrod;
+  background-image: url("../assets/images/bg-2.JPG");
+  text-shadow: 4px 10px rgba(6, 141, 154, 0.427);
+}
+@media screen and (max-width: 768px) {
+  .banner {
+    font-size: 4rem;
+  }
+}
